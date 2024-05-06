@@ -1,0 +1,15 @@
+html, body {
+    background: #141E30;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Copperplate', fantasy;
+    font-weight: 100;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}

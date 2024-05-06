@@ -1,0 +1,27 @@
+html, body {
+    background: #141E30;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Copperplate', fantasy;
+    font-weight: 100;
+  }
+
+  nav {
+    padding-top: 36px;
+    text-align: center;
+  }
+
+  .links {
+    color: #FFF;
+    font-size: 2em;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .links:hover {
+    color: #FAF;
+  }
