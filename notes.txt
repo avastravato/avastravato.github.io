@@ -1,0 +1,10 @@
+should modify to be one continuous page with a nav bar instead of seperate pages
+subheadings:
+    about me
+        links to github, linkedin
+    projects
+    skills
+    experience
+        scratch resume, create more interactive
+    education
+    contact info
