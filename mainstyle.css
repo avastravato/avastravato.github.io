@@ -51,11 +51,46 @@ html, body {
     position: relative;
     top: 50px;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     align-items: center;
   }
 
   .headshot {
     border-radius: 50%;
     border: 5px solid white;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  #myskills {
+    display: block;
+    align-items: space-around;
+  }
+
+  #skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    height: 100px;
+  }
+
+  .languagename {
+    color: white;
+  }
+
+  #logoAndName {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
   }

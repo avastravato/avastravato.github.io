@@ -8,3 +8,21 @@ subheadings:
         scratch resume, create more interactive
     education
     contact info
+
+
+skills:
+flex container with elements for each language logo
+justify-content: space-around (vertical)
+align-items: center (horizontal)
+align-content: space-around (vertical)
+flex-wrap: wrap
+include:
+- C++
+- C
+- Python
+- Java ?
+- Javascript
+- HTML
+- CSS
+- R
+- SQL
