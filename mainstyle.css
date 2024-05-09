@@ -12,6 +12,7 @@ html, body {
   .nav-container {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   nav {
@@ -103,6 +104,6 @@ html, body {
       width: 100%;
     }
     .intro {
-      padding: 100px 50px;
+      padding: 50px 150px;
     }
   }
