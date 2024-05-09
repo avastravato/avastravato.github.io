@@ -31,6 +31,7 @@ html, body {
     color: #bbb;
     padding: 5px 10px;
     transition: color 0.3s ease;
+    font-size: 1em;
   }
   
   .links:hover {
@@ -51,7 +52,7 @@ html, body {
     position: relative;
     top: 50px;
     color: white;
-    font-size: 40px;
+    font-size: 2.5em;
     align-items: center;
   }
 
@@ -69,6 +70,7 @@ html, body {
   #myskills {
     display: block;
     align-items: space-around;
+    font-size: 1em;
   }
 
   #skills {
@@ -85,6 +87,7 @@ html, body {
 
   .languagename {
     color: white;
+    font-size: 1.2em;
   }
 
   #logoAndName {
@@ -93,4 +96,13 @@ html, body {
     align-items: center;
     align-content: space-around;
     flex-direction: column;
+  }
+
+  @media only screen and (max-width: 480px) {
+    nav {
+      width: 100%;
+    }
+    .intro {
+      padding: 100px 50px;
+    }
   }
