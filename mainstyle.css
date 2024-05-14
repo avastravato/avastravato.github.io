@@ -62,31 +62,35 @@ html, body {
     display: block;
     align-items: space-around;
     font-size: 1em;
+    margin: auto 15%;
+  }
+
+  .logo {
+    height: 5em;
+    transition: height 0.3s ease;
   }
 
   #skills {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-
-  .logo {
-    height: 100px;
-  }
-
-  .languagename {
-    color: white;
-    font-size: 1.2em;
-  }
-
+  
   #logoAndName {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    flex-direction: column;
+    width: calc(20% - 20px);
+    text-align: center;
+  }
+
+  .logo:hover {
+    height: 6em;
+  }
+
+  #skills > :nth-child(5n) {
+    margin-bottom: 0;
+  }
+
+  #skills > :nth-child(n+6) {
+    margin-top: 3em;
   }
 
   p {
