@@ -34,16 +34,6 @@ html, body {
     transition: color 0.3s ease;
     font-size: 1em;
   }
-  
-  .links:hover {
-    color: black;
-  }
-
-  .links:active {
-    color: black;
-    background-color: #ddd;
-    border-radius: 50px;
-  }
 
   .intro {
     box-sizing: border-box;
@@ -98,6 +88,13 @@ html, body {
     align-content: space-around;
     flex-direction: column;
   }
+
+  p {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
 
   @media only screen and (max-width: 480px) {
     nav {

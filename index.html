@@ -9,14 +9,14 @@
                 <nav>
                     <a class="links" href="#home">Home</a>
                     <a class="links" href="#projects">Projects</a>
-                    <a class="links" href="#skills">Skills</a>
+                    <a class="links" href="#myskills">Skills</a>
                     <a class="links" href="#experience">Experience</a>
                     <a class="links" href="#education">Education</a>
                     <a class="links" href="#contact">Contact</a>
                 </nav>
             </div>
 
-            <div id="Home" class="intro">
+            <div id="home" class="intro">
                 <img src="./headshot.jpg" class="headshot" alt="This is me!" width="150" height="150">
                 <p>Hi, I'm Ava! I'm an undergraduate college student pursuing a Bachelor's of Science Engineering in Computer Science.</p>
             </div>
@@ -74,7 +74,21 @@
             </div>
     
             <div id="contact" class="section">
-                <!-- Content for Contact Me section -->
+                <div class="sectionheader">
+                    <h1>Contact Me!</h1>
+                </div>
+                <div id="contact-form">
+                    <p>Please direct questions or inquiries to my email or fill out this form.</p>
+                    <form action="/contacts.html" method="POST">
+                        <input type="text" name="name-field" placeholder="Name">
+                        <br>
+                        <input type="email" name="email-field" placeholder="Email">
+                        <br>
+                        <textarea name="message-field" rows="3" placeholder="Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
             </div>
+            <script src="./script.js"></script>
         </body>
     </html>
