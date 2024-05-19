@@ -63,7 +63,9 @@ html, body {
     padding: 0 4rem;
   }
 
-/* debugged to here */
+/* debugged to here, TODO:
+  1. './logos/michigan.png' has block M, append to headshot element!
+  2. add more specific media queries, split nav to new row and bigger clicks */
 
   #myskills {
     display: block;
